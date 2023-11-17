@@ -1,3 +1,5 @@
+# To calculate the factorial using recursion function and to print the time taken to perform it
+
 import timeit
 
 
