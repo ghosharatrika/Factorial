@@ -1,3 +1,5 @@
+// To calculate factorial of number n in C
+
 #include<stdio.h>
 
 long int factorial(int n) // Function to calculate factorial
@@ -13,14 +15,14 @@ long int factorial(int n) // Function to calculate factorial
 int main()
 {
     int num;
-    printf("Enter a positive number: ");
+    printf("Enter a positive number: "); //Inputing a number
     scanf("%d",&num);
 
     if (num<0){
         printf("Wrong input.");
     }
     else{
-         printf("Factorial of %d is: %d",num,factorial(num));
+         printf("Factorial of %d is: %d",num,factorial(num)); // calculating the factorial and printing it
     }
     
     return 0;
