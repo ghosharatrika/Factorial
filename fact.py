@@ -1,3 +1,5 @@
+#To calculate the factorial from scipy library and print the time taken
+
 from scipy.special import factorial
 import timeit
 
